@@ -9,7 +9,7 @@ This is a widget for the [Appcelerator](http://www.appcelerator.com) [Alloy](htt
 * Works on Android, iOS
 
 ## Quick Start
-* [Download the latest version](https://github.com/jasonkneen/DynamicTSS) of the widget as a ZIP file.
+* [Download the latest version](https://github.com/jasonkneen/com.jasonkneen.dynamicTSS) of the widget as a ZIP file.
 * Unzip the folder to your project under `app/widgets/com.jasonkneen.dynamicTSS`.
 * Add the widget as a dependency to your `app/config.json` file:
 
