@@ -19,7 +19,7 @@ This is a widget for the [Appcelerator](http://www.appcelerator.com) [Alloy](htt
 }
 ```
 
-* Add the widget as the last item in the view container you want to apply dynamic styles too, so your main window or view, just above the </Window> or </View> tag.
+* Add the widget as the last item in the view container you want to apply dynamic styles too, so your main window or view, just above the closing Window or View tags.
 
 ```xml
 <Alloy>
