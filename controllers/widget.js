@@ -1,12 +1,12 @@
 Ti.Gesture.addEventListener("orientationchange", applyOrientiation);
 
-__parentSymbol.addEventListener('close', function() {
-    Ti.Gesture.removeEventListener("orientationchange", applyOrientiation);
-});
+if ( typeof (__parentSymbol.close) == "function") {
+    __parentSymbol.addEventListener('close', function() {
+        Ti.Gesture.removeEventListener("orientationchange", applyOrientiation);
+    });
+}
 
 function applyOrientiation() {
-
-    var view = __parentSymbol;
 
     function updateControls(children) {
 
@@ -16,8 +16,7 @@ function applyOrientiation() {
             orientName = "landscape";
             lastOrientName = "portrait";
         }
-        
-       
+
         if (children) {
             children.forEach(function(control) {
 
@@ -34,7 +33,7 @@ function applyOrientiation() {
         }
     }
 
-    updateControls([view]);
+    updateControls([__parentSymbol]);
 }
 
 applyOrientiation();
