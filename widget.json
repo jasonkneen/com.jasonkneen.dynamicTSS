@@ -1,0 +1,13 @@
+{
+    "id": "com.jasonkneen.dynamicTSS",
+    "name": "com.jasonkneen.dynamicTSS",
+    "description" : "Dynamic TSS support on landscape / portrait switching",
+    "author": "Jason Kneen",
+    "version": "1.0",
+    "copyright":"Copyright (c) 2013",
+    "license":"Apache License, Version 2.0",
+    "min-alloy-version": "1.0",
+    "min-titanium-version":"3.0",
+    "tags":"tss,landscape,portrait,dynamic",
+    "platforms":"android,ios,mobileweb"
+}
